@@ -81,7 +81,7 @@ En transición desde Helpdesk a SecOps. Este lab es mi portfolio Learning in Pub
 
 ## 🧠 Respuesta inteligente (LogRhythm)
 
-![Respuesta inteligente](docs/intelligent-response.png)
+![Respuesta inteligente](intelligent-response.png)
 
 Panel real de LogRhythm: activadores de reglas, prioridad basada en riesgos, casos de uso, anomalías de usuarios. Este es el nivel que simulo con Wazuh + Open Collector. Mi objetivo: pasar de ver alertas a entender el contexto de riesgo.
 Dashboard real de LogRhythm: Rules Triggers, Risk-Based Priority, Use Cases, Anomalies Users.
