@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  open-collector:
+    image: balabit/syslog-ng:latest
+    container_name: lr-open-collector
+    ports:
+      - "514:514"
+      - "5044:5044"
+      - "6514:6514"
+    volumes:
+      - ./config/syslog-ng.conf:/etc/syslog-ng/syslog-ng.conf
+    networks:
+      - purple-net
+  wazuh-manager:
+    image: wazuh/wazuh-manager:4.8.0
+    ports:
+      - "1514:1514"
+      - "55000:55000"
+    networks:
+      - purple-net
+  kali-attacker:
+    image: kalilinux/kali-rolling
+    tty: true
+    command: /bin/bash
+    networks:
+      - purple-net
+networks:
+  purple-net:
+    driver: bridge
