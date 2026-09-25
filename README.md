@@ -1,10 +1,13 @@
-# SIEM Purple Team Lab - Docker
+## Laboratorio del equipo púrpura de SIEM - Docker
+**Soporte técnico L1/L2 | ITIL Junior SecOps | SIEM**
 
-**De Helpdesk L1/L2 | ITIL a Junior SecOps | SIEM**
+> Aún no trabajo en SOC, pero este laboratorio demuestra cómo gestionaría una ofensa en producción.
 
-> Aún no trabajo en SOC, pero este lab demuestra cómo gestionaría una ofensa en producción.
+Este repositorio simula el flujo LogRhythm Open Collector en Docker para practicar Blue Team vs Red Team = Learning.
 
-Este repo simula el flujo LogRhythm Open Collector en Docker para practicar Blue Team vs Red Team = Learning.
+![Pentagrama de Roles](respuesta-inteligente.png)
+
+### 🟦 EQUIPO AZUL vs 🟥 EQUIPO ROJO
 
 <img width="1920" height="1280" alt="image_20260925_235237" src="https://github.com/user-attachments/assets/60342662-f8ae-462b-b4d7-63c133ce257d" />
 
