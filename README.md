@@ -6,6 +6,9 @@
 
 Este repo simula el flujo LogRhythm Open Collector en Docker para practicar Blue Team vs Red Team = Learning.
 
+<img width="1920" height="1280" alt="image_20260925_235237" src="https://github.com/user-attachments/assets/60342662-f8ae-462b-b4d7-63c133ce257d" />
+
+
 ## 🟦 BLUE TEAM vs 🟥 RED TEAM
 
 ### Arquitectura
